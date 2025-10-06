@@ -82,12 +82,12 @@ class FeatureExtractor:
         print("Extracting temporal features...")
         live_data = self.extract_temporal_features(live_data)
         
-        print("Extracting spatial features...")
-        live_data = self.extract_spatial_features(live_data)
+        # print("Extracting spatial features...")
+        # live_data = self.extract_spatial_features(live_data)
         
-        if route_id:
-            print(f"Extracting route characteristics for {route_id}...")
-            live_data = self.extract_route_characteristics(live_data, route_id)
+        # if route_id:
+        #     print(f"Extracting route characteristics for {route_id}...")
+        #     live_data = self.extract_route_characteristics(live_data, route_id)
         
         return live_data
     

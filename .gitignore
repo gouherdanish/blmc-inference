@@ -2,3 +2,5 @@
 .DS_Store
 *old*
 *data*
+model.pkl
+*.ipynb
