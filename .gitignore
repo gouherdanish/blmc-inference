@@ -1,6 +1,0 @@
-**/__pycache__/
-.DS_Store
-*old*
-*data*
-model.pkl
-*.ipynb

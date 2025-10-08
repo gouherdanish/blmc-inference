@@ -1,5 +1,3 @@
 #!/bin/bash
-cd /Users/gouher/Documents/personal/codes/blmc/inference
-docker build -t blmc:latest .
-docker tag blmc:latest gouherdanishiitkgp/blmc-docker-repo:latest
-docker push gouherdanishiitkgp/blmc-docker-repo:latest
+docker build -t gouherdanishiitkgp/blmc-inference:v1
+docker push gouherdanishiitkgp/blmc-inference:v1
